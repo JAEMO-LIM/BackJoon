@@ -16,14 +16,15 @@ public class P_2018 {
                 end_index++;
                 sum = sum + end_index;
             }
-            if(sum > N) {
+            else if(sum > N) {
                 sum = sum-start_index;
                 start_index++;
 
             }
-            if(sum<N) {
-                sum = sum + end_index;
+            else {
                 end_index++;
+                sum = sum + end_index;
+
             }
 
         }
