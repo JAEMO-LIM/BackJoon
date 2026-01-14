@@ -34,8 +34,5 @@ public class P_1940 {
         }
         System.out.println(count);
 
-
-
-
     }
 }
