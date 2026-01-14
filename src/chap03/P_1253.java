@@ -20,7 +20,7 @@ public class P_1253 {
         Arrays.sort(A);
 
         for(int K =0;K<N;K++) {
-                                                                                                                                                                                                                                                                                                                           
+
             int Left_p=0;
             int Right_p=N-1;
             while(Left_p<Right_p) {
