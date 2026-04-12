@@ -12,7 +12,7 @@ public class Debug {
 			b[i]  = i;
 			System.out.println("i = " + i);
 			System.out.println("b[" + i +"] = " + i);
-			if(i==10) {
+			if(i==13) {
 				i =  15;
 			}
 		}
